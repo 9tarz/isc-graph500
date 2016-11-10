@@ -7,4 +7,4 @@ Based on Boston University High Performance Computing's implementation [isc16-gr
 ## Running
 Typical usage:
 - Single node: $mpirun ./main scale edgefactor
-- Cluster:  $mpirun ./main -machinefile machinefile -np numberofprocesses ./main scale edgefactor
+- Cluster:  $mpirun -machinefile machinefile -np numberofprocesses ./main scale edgefactor

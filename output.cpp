@@ -101,9 +101,9 @@ void printOutput(int SCALE, int edgefactor, int NBFS, double kernel_1_time, doub
 		q1TEPS = kernel_2_TEPS[mid/2];
 		q3TEPS = kernel_2_TEPS[mid+1+mid/2];
 	}
-	cout << "firstquartile_time: "<< kernel_1_time << endl;
-	cout << "median_time: "<< medianTEPS << endl;
-	cout << "thirdquartile_time: "<< kernel_1_time << endl;
+	cout << "firstquartile_TEPS: "<< q1TEPS << endl;
+	cout << "median_TEPS: "<< medianTEPS << endl;
+	cout << "thirdquartile_TEPS: "<< q3TEPS << endl;
 	cout << "max_TEPS: "<< *max_element(kernel_2_TEPS,kernel_2_TEPS + NBFS ) << endl;
 
 	double sumHMTEPS = 0.0;
